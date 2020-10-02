@@ -1,0 +1,15 @@
+#Giving Source
+
+FROM ubuntu
+
+#Assign Maintainer Name
+
+MAINTAINER Sachin Raturi
+
+#Update package list
+
+RUN apt-get update
+
+#Display a line using ECHO
+
+CMD ["echo", "Hello This is my Test Image created using Docker Build Command"]
